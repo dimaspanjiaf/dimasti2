@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Data Mahasiswa</title>
+</head>
+<body>
+    <h2>
+        Tambah Data Mahasiswa
+    </h2>
+        <form action="Mahasiswa.html" method="post">
+            <table cellpadding = "5px">
+                <tr>
+                    <td> <label for="nama">Nama</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="nama" name="nama" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="NIM">NIM</label></td>
+                    <td>:</td>
+                    <td><input type="" id="NIM" name="NIM" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="foto">foto</label></td>
+                    <td>:</td>
+                    <td><input type="file" id="foto" name="foto" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="UTS">UTS</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="UTS" name="UTS" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="UAS">UAS</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="UAS" name="UAS" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="TUGAS">TUGAS</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="TUGAS" name="TUGAS" required/></td>
+                </tr>
+                <tr>
+                    <td colspan="3"> 
+                        <button type="submit"name="submit">Tambah Data</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <br>
+        <hr>
+         <form action="Mahasiswa.html" method="post">
+            <table cellpadding = "5px">
+                <tr>
+                    <td> <label for="nama">Nama</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="nama" name="nama" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="NIM">NIM</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="NIM" name="NIM" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="password">password</label></td>
+                    <td>:</td>
+                    <td><input type="password" id="password" name="password" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="email">email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name="email" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="no hp">No hp</label></td>
+                    <td>:</td>
+                    <td><input type="tel" id="no hp" name="no hp" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Website Pribadi">Website Pribadi</label></td>
+                    <td>:</td>
+                    <td><input type="url" id="Website Pribadi" name="Website Pribadi" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Tanggal lahir">Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date" id="Tanggal lahir" name="Tanggal lahir" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Warna Favorit">Warna Favorit</label></td>
+                    <td>:</td>
+                    <td><input type="color" id="Warna Favorit" name="Warna Favorit" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Tingkat Kepuasan">Tingkat Kepuasan</label></td>
+                    <td>:</td>
+                    <td><input type="range" id="Tingkat Kepuasan" name="Tingkat Kepuasan" min="1" max="100" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="Jenis Kelamin">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                        <input type="radio" name="jk" value="Perempuan"> Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Hobi">Hobi</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="hobi[]" value="Membaca"> Membaca
+                        <input type="checkbox" name="hobi[]" value="Gaming"> Gaming
+                        <input type="checkbox" name="hobi[]" value="Olahraga"> Olahraga
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Tambahkan foto">Tambahkan foto</label></td>
+                    <td>:</td>
+                    <td><input type="file" id="Tambahkan foto" name="Tambahkan foto" required/></td>
+                </tr>
+                <tr>
+                    <td> <label for="alamat">Alamat</label></td>
+                    <td>:</td>
+                    <td><textarea id="alamat" name="alamat" required></textarea></td>
+                </tr>
+                <tr>
+                    <td> <label for="jurusan">Jurusan</label></td>
+                    <td>:</td>
+                    <td>
+                        <select name="jurusan">
+                        <option value="">--Pilih Jurusan--</option>
+                        <option value="TI">Teknik Informatika</option>
+                        <option value="SI">Sistem Informasi</option>
+                        <option value="DKV">Desain Komunikasi Visual</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> 
+                        <button type="submit"name="submit">Tambah Data</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    
+</body>
+</html>
